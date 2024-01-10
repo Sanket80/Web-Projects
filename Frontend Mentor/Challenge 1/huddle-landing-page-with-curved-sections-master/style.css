@@ -1,0 +1,205 @@
+:root {
+    /* Primary Colors */
+    --pink: hsl(322, 100%, 66%);
+    --light-pink: hsl(321, 100%, 78%);
+    --light-red: hsl(0, 100%, 63%);
+  
+    /* Neutral Colors */
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --very-pale-blue: hsl(207, 100%, 98%);
+  }
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+nav button{
+    background-color: #fff;
+    color: var(--light-pink);
+    border: 2px solid var(--light-pink);
+    border-radius: 50px;
+    padding: 10px 26px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+nav button:hover{
+    background-color: var(--very-pale-blue);
+}
+
+main .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+main .container h1{
+    margin: 80px 0px 0px 0px;
+    font-size: 46px;
+    font-weight: 900;
+    text-align: center;
+    color: var(--very-dark-cyan);
+}
+main .container p{
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    color: var(--very-dark-cyan);
+}
+main button{
+    background-color: var(--pink);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 16px 58px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.screen{
+    margin: 80px 0px;
+    text-align: center;
+}
+
+.ratings{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+}
+
+.ratings img{
+    width: 26px;
+    height: 26px;
+}
+.ratings p{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+}
+.ratings h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin:0px;
+}
+.ratings p{
+    margin: 0px;
+}
+.curved {
+    background-image: url("/assignment1/huddle-landing-page-with-curved-sections-master/images/bg-section-top-desktop-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    height: 500px;
+}
+.curved img{
+    width: 400px;
+    height: 400px;
+}
+.curved .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+}
+.content h1{
+    margin: 0px;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.curved .content1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+.content1 h1{
+    margin: 0px;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.ending{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 32px;
+    margin: 80px 0px;
+}
+.ending .ready{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+footer{
+    /* background-image: url("/assignment1/huddle-landing-page-with-curved-sections-master/images/bg-footer-top-desktop.svg"); */
+    background-color: rgb(230, 250, 255);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    height: 50vh;
+    color: black;
+}
+.social img{
+    fill: white;
+    height: 30px;
+    padding: 0px 10px;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+footer .newsletter{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 14px 0px;
+}
+footer .getStarted{
+    background-color: var(--pink);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 9px 32px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 24px;
+    margin-top: 20px;
+}
+.email input{
+    border-radius: 4px;
+    padding: 8px 48px;
+}
+
+.end1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.end1 .logo{
+    width: 260px;
+}
