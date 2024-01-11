@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+}
+
+.upper {
+    background-image: url("./images/bg-header-desktop.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper img {
+    margin: 100px 0px 20px 0px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 56vw;
+    margin: auto;
+}
+
+.info .info1 {
+    font-size: 58px;
+    font-weight: bold;
+    color: var(--dark-grayish-blue);
+    margin-top: 50px;
+}
+
+.info .subinfo {
+    text-align: center;
+    color: var(--grayish-blue);
+    margin: 22px 0px 42px 0px;
+    font-size: 22px;
+}
+
+.info button {
+    padding: 14px 32px;
+    border-radius: 24px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.info .green {
+    background-color: var(--strong-cyan);
+    color: white;
+    margin-right: 10px;
+}
+
+.info .blue {
+    background-color: var(--light-blue);
+    color: white;
+}
+
+.info .info1part2 {
+    font-size: 38px;
+    font-weight: bold;
+    color: var(--dark-grayish-blue);
+    margin-top: 50px;
+}
+
+.functions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0px;
+}
+.functions img{
+    width: 50vw;
+    height: 70vh;
+}
+
+.access{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 30vw;
+    margin: auto;
+    gap: 60px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.access .quick .quick1{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--dark-grayish-blue);
+    margin-bottom: 10px;
+}
+.access .quick .subinfo{
+    font-size: 16px;
+    color: var(--grayish-blue);
+}
+
+.companies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 150px 0px 70px 0px;
+}
+.info .subinfopart2{
+    text-align: center;
+    color: var(--grayish-blue);
+    margin: 22px 0px 42px 0px;
+    font-size: 22px;
+}
+.tasks{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.work{
+    max-width: 20vw;
+    margin: auto;
+    text-align: center;
+}
+.work .work1{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--dark-grayish-blue);
+    margin: 32px 0px 14px 0px;
+    text-align: center;
+}
+.work .subinfo{
+    color: var(--grayish-blue);
+    font-size: 16px;
+}
