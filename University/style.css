@@ -502,3 +502,31 @@ h3{
 .contact-col input:focus, .contact-col textarea:focus{
     border: 1px solid gray;
 }
+
+form{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input{
+    width: 60%;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+.submit{
+    padding: 12px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.error{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
