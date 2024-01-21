@@ -28,6 +28,8 @@ function clearErrorMessage() {
 }
 
 function validateForm() {
+    clearErrorMessage();
+    
     var returnval = true;
     if (fname.value == "") {
         setErrorMessage("nameError", "*Please enter your name");
