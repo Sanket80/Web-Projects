@@ -55,17 +55,22 @@ body{
     gap: 13px;
     position: absolute;
     bottom: 0;
+    padding: 10px 0px;
 }
-
 .footer a{
     color: gray;
 }
 
+.right{
+    margin: 14px 8px 8px 0px;
+    border-radius: 6px;
+    background: linear-gradient(to bottom, #1E1E1E, #121212);;
+}
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(25, 25, 25);
+    background-color: #101010;
 }
 .header > *{
     padding: 12px;
@@ -89,4 +94,48 @@ body{
     font-weight: 500;
     font-size: 16px;
     cursor: pointer;
+}
+
+
+.spotifyPlaylists h2{
+    margin: 4px 20px;
+}
+.svg-container {
+    display: flex;
+    align-items: center;
+    padding: 10px; /* Adjust padding as needed */
+    background-color: #1FDF64;
+    border-radius: 24px;
+    position: absolute;
+    top: 136px;
+    right: 16px;
+    opacity: 1;
+    transition: 1s ease-out;
+  }
+  
+  .svg-container svg path {
+    fill: black;
+  }
+.cardContainer{
+    margin: 10px 0px 0px 26px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.cardContainer img{
+    border-radius: 12px;
+}
+.card{
+    width: 170px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #171717;
+    position: relative;
+}
+.card > *{
+    padding-top: 8px;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
 }
